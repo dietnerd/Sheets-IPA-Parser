@@ -153,10 +153,3 @@ function IPACOUNT(words, ...phonemes) {
   }
   return retval;;
 } 
-
-function test() {
-  
-  var sheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/10QGOdZie7YDzGfO4ETq78VlOvVPqcaKxY6HXP4yP9Vs/edit#gid=478952578").getSheetByName("Raarit"); 
-  var words = sheet.getRange(2, 3, sheet.getLastRow()-2,1).getValues();
-  var val = GRAPHCOUNT(words, [['a','b','y','tz','tl','ts','ky']]);
-}
