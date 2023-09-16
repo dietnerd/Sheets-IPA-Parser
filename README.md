@@ -45,7 +45,7 @@ This function is dedicated with the idea that the input phonemes are explicitly 
 
 * **Can this code be used in an Excel document?**
 
-Excel does allow for custom code to be loaded, and this script is technically written in a Google-flavored Javascript so its hypothetically possible. This is untested though.
+Not really. This code is written in accordance with GoogleScript, and even with some translations over to Excel it wouldn't work due to how Microsoft likes to handle Javascript actions in worksheets.
 
 * **Will this script auto-generate cool phoneme distribution charts?**
 
